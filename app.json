@@ -41,11 +41,6 @@
          "required": true,
          "value": ""
       },
-      "HEROKU_API_KEY": {
-         "description": "Your heroku api key . Get it from - https://dashboard.heroku.com/account ",
-         "required": false,
-         "value": ""
-      },
       "HEROKU_APP_NAME": {
          "description": "Your app name that's you already wrote on App-name form",
          "required": true,
@@ -117,11 +112,6 @@
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
          "value": "ANYTHING"
-      },
-      "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
-         "value": ""
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",

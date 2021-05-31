@@ -116,7 +116,7 @@
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
          "required": false,
-         "value": "cleaner rss connection"
+         "value": "cleaner rss connection math"
       }, 
       "BL_CHATS": {
          "description": "List of group id you want blacklisted.",

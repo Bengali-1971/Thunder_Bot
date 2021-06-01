@@ -374,7 +374,7 @@ def list_notes(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     note_list = sql.get_all_chat_notes(chat_id)
     notes = len(note_list) + 1
-    msg = "Notes in f"{chat_name}\n"\n\n" "Get note by `/notenumber` or `#notename` \n\n  *ID*    *Note* \n\n"
+    msg = "Notes \n\n" "Get note by `/notenumber` or `#notename` \n\n  *ID*    *Note* \n\n"
     for note_id, note in zip(range(1, notes), note_list):
         if note_id < 10:
             note_name = f"`{note_id:2}.`  `#{(note.name.lower())}`\n"

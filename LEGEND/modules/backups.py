@@ -343,7 +343,7 @@ def export_data(update, context):
     context.bot.sendDocument(
         current_chat_id,
         document=open("LEGENDBOT{}.backup".format(chat_id), "rb"),
-        caption="*Successfully Exported backup:*\n: {}".format(
+        caption="*Successfully Exported Notes From\n: {}*".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,

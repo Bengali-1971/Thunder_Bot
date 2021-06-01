@@ -3,7 +3,7 @@
 
 A modular Telegram Python bot running on python3 .
 
-Can be found on telegram as [Thunder Bot](https://t.me/Thunder_Bot).
+Can be found on telegram as [Thunder Bot](https://t.me/Me_Thunder_Bot).
 
 # Join our Group .
 

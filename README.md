@@ -7,7 +7,7 @@ Can be found on telegram as [Thunder Bot](https://t.me/Me_Thunder_Bot).
 
 # Join our Group .
 
-<a href="https://t.me/MeThunderBotSupport"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a>
+<a href="https://t.me/Thunder_Bot_Support"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a>
 
 # Deploy your own bot .
 

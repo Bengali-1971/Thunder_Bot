@@ -119,9 +119,9 @@
          "value": "cleaner rss connection math"
       }, 
       "BL_CHATS": {
-         "description": "List of group id you want blacklisted.",
+         "description": "A space separated list of group id you want blacklisted.",
          "required": false,
-         "value": ""
+         "value": "-1001378608056"
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",

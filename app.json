@@ -59,6 +59,11 @@
          "description": "Your Telegram support group username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
          "value": ""
+      },      
+      "JOIN_LOGGER": {
+         "description": "Give a channel id number for saving bot log ",
+         "required": false,
+         "value": ""
       },
       "EVENT_LOGS": {
          "description": "Event logs group id number for note down important bot level events, recommend to make this public. If you don't add event log group id , gban will not work",
@@ -74,6 +79,11 @@
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
          "value": "-xyz"
+      },      
+      "INFOPIC": {
+         "description": "This will enable profile picture show option on user information",
+         "required": true,
+         "value": "True"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Legend support then keep the current ID's here at they are and add yours.",
@@ -81,7 +91,7 @@
          "value": ""
       },
       "sw_api": {
-         "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
+         "description": "Spamwatch API Token, Get your token from -  https://t.me/SpamWatchBot.",
          "required": false,
          "value": ""
       }, 
